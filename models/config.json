@@ -1,0 +1,307 @@
+{
+  "thresholds": {
+    "mid": 0.5228719732859659,
+    "high": 0.6095372612206463
+  },
+  "risk_rates": {
+    "Faible": 0.082,
+    "Moyen": 0.162,
+    "Élevé": 0.246
+  },
+  "global_rate": 0.11441997232472324,
+  "feature_order": [
+    "race",
+    "gender",
+    "time_in_hospital",
+    "medical_specialty",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications",
+    "number_outpatient",
+    "number_emergency",
+    "number_inpatient",
+    "diag_1",
+    "diag_2",
+    "diag_3",
+    "number_diagnoses",
+    "max_glu_serum",
+    "A1Cresult",
+    "metformin",
+    "repaglinide",
+    "glimepiride",
+    "glipizide",
+    "glyburide",
+    "pioglitazone",
+    "rosiglitazone",
+    "insulin",
+    "change",
+    "diabetesMed",
+    "discharge_group",
+    "admission_type",
+    "admission_source",
+    "age_num",
+    "n_meds",
+    "n_med_changes",
+    "total_visits"
+  ],
+  "num_cols": [
+    "time_in_hospital",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications",
+    "number_outpatient",
+    "number_emergency",
+    "number_inpatient",
+    "number_diagnoses",
+    "repaglinide",
+    "glimepiride",
+    "pioglitazone",
+    "rosiglitazone",
+    "age_num",
+    "n_meds",
+    "n_med_changes",
+    "total_visits"
+  ],
+  "cat_cols": [
+    "race",
+    "gender",
+    "medical_specialty",
+    "diag_1",
+    "diag_2",
+    "diag_3",
+    "max_glu_serum",
+    "A1Cresult",
+    "metformin",
+    "glipizide",
+    "glyburide",
+    "insulin",
+    "change",
+    "diabetesMed",
+    "discharge_group",
+    "admission_type",
+    "admission_source"
+  ],
+  "cat_options": {
+    "race": [
+      "AfricanAmerican",
+      "Asian",
+      "Caucasian",
+      "Hispanic",
+      "Other",
+      "Unknown"
+    ],
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "medical_specialty": [
+      "Cardiology",
+      "Emergency/Trauma",
+      "Family/GeneralPractice",
+      "InternalMedicine",
+      "Nephrology",
+      "Orthopedics",
+      "Orthopedics-Reconstructive",
+      "Other",
+      "Pulmonology",
+      "Radiologist",
+      "Surgery-General",
+      "Unknown"
+    ],
+    "diag_1": [
+      "Circulatory",
+      "Diabetes",
+      "Digestive",
+      "Genitourinary",
+      "Injury",
+      "Musculoskeletal",
+      "Neoplasms",
+      "Other",
+      "Respiratory",
+      "Unknown"
+    ],
+    "diag_2": [
+      "Circulatory",
+      "Diabetes",
+      "Digestive",
+      "Genitourinary",
+      "Injury",
+      "Musculoskeletal",
+      "Neoplasms",
+      "Other",
+      "Respiratory",
+      "Unknown"
+    ],
+    "diag_3": [
+      "Circulatory",
+      "Diabetes",
+      "Digestive",
+      "Genitourinary",
+      "Injury",
+      "Musculoskeletal",
+      "Neoplasms",
+      "Other",
+      "Respiratory",
+      "Unknown"
+    ],
+    "max_glu_serum": [
+      ">200",
+      ">300",
+      "Norm",
+      "Not_tested"
+    ],
+    "A1Cresult": [
+      ">7",
+      ">8",
+      "Norm",
+      "Not_tested"
+    ],
+    "metformin": [
+      "Down",
+      "No",
+      "Steady",
+      "Up"
+    ],
+    "glipizide": [
+      "Down",
+      "No",
+      "Steady",
+      "Up"
+    ],
+    "glyburide": [
+      "Down",
+      "No",
+      "Steady",
+      "Up"
+    ],
+    "insulin": [
+      "Down",
+      "No",
+      "Steady",
+      "Up"
+    ],
+    "change": [
+      "Ch",
+      "No"
+    ],
+    "diabetesMed": [
+      "No",
+      "Yes"
+    ],
+    "discharge_group": [
+      "Home",
+      "Home_care",
+      "Other",
+      "Transfer"
+    ],
+    "admission_type": [
+      "Elective",
+      "Emergency",
+      "Other",
+      "Unknown",
+      "Urgent"
+    ],
+    "admission_source": [
+      "Emergency_room",
+      "Other",
+      "Referral",
+      "Transfer"
+    ]
+  },
+  "num_ranges": {
+    "time_in_hospital": [
+      1.0,
+      14.0,
+      4.0
+    ],
+    "num_lab_procedures": [
+      1.0,
+      84.0,
+      44.0
+    ],
+    "num_procedures": [
+      0.0,
+      6.0,
+      1.0
+    ],
+    "num_medications": [
+      1.0,
+      43.0,
+      15.0
+    ],
+    "number_outpatient": [
+      0.0,
+      5.0,
+      0.0
+    ],
+    "number_emergency": [
+      0.0,
+      3.0,
+      0.0
+    ],
+    "number_inpatient": [
+      0.0,
+      6.0,
+      0.0
+    ],
+    "number_diagnoses": [
+      1.0,
+      16.0,
+      8.0
+    ],
+    "repaglinide": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "glimepiride": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "pioglitazone": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "rosiglitazone": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "age_num": [
+      5.0,
+      95.0,
+      65.0
+    ],
+    "n_meds": [
+      0.0,
+      6.0,
+      1.0
+    ],
+    "n_med_changes": [
+      0.0,
+      4.0,
+      0.0
+    ],
+    "total_visits": [
+      0.0,
+      10.0,
+      0.0
+    ]
+  },
+  "cluster_names": {
+    "0": "Patients récurrents à forte utilisation des soins",
+    "1": "Séjours courts, monothérapie stable",
+    "2": "Séjours courts sans traitement antidiabétique",
+    "3": "Séjours longs et complexes",
+    "4": "Séjours courts, bithérapie avec ajustements"
+  },
+  "cluster_rates": {
+    "0": 0.225,
+    "1": 0.109,
+    "2": 0.095,
+    "3": 0.133,
+    "4": 0.106
+  }
+}
